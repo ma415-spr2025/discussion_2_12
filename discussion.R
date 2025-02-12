@@ -15,3 +15,5 @@ new_data
 
 hist(new_data$random.2, freq=FALSE, main='random 1')
 lines(density(new_data$random.2))
+
+pairs(city[,c('porto', 'aberdeen', 'nairobi', 'genoa')], panel=panel.smooth)
